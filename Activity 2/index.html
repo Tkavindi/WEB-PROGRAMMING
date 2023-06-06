@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<H1>>, initial-scale=1.0">
+    <title>Document2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="card mt-5">
+                    <div class="card-header">
+                        <h1> Calculator </h1>
+                    </div>
+                    <div class="card-body">
+
+
+                        <!--<h1>CALCULATOR</h1>-->
+                        <label for="txtfirstNumber" class="form-label mb-3 my-2 mx-2 ">First Number</label>
+                        <input type="number" id="txtfirstNumber" class="form-control">
+
+                        <label for="txtsecondNumber" class="form-label mb-3 my-2 mx-2">Second Number</label>
+                        <input type="number" id="txtsecondNumber" class="form-control">
+                        <div class="d-grid gap-3 d-md-flex">
+                            <button type="submit" onclick="sum()" class="btn btn-info mb-4 my-2 mx-2 col-md-2">+</button>
+                            <button type="submit" onclick="sub()" class="btn btn-primary mb-4 my-2 mx-2 col-md-2">-</button>
+                            <button type="submit" onclick="multiply()" class="btn btn-success mb-4 my-2 mx-2 col-md-2 ">x</button>
+                            <button type="submit" onclick="divide()" class="btn btn-warning mb-4 my-2 mx-2 col-md-2">/</button>
+                        </div>
+
+
+                        <label for="txtResult" class="form-label mb-3 my-1 mx-1">Result</label>
+                        <input type="number" id="txtResult" class="form-control">
+                        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+                            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+                            crossorigin="anonymous"></script>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+
+</html>
